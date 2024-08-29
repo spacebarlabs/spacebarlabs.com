@@ -1,3 +1,3 @@
 function contactUs() {
-    window.location.href = "mailto:contact@spacebar.labs";
+    window.location.href = "mailto:hello@spacebarlabs.com";
 }
