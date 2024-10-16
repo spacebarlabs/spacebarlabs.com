@@ -27,22 +27,38 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM2BGK4N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <header class="logo">
-      <img src="SBL_Logo.svg" alt="Space Bar Labs Logo">
-    </header>
-    <main class="content">
-      <h1>LET'S CREATE THE FUTURE TOGETHER</h1>
-      <p>Have a project that you need help with? Need a short term or long term development partner?</p>
-      <p>We're happy to talk with you and figure out how we can best accelerate your ideas.</p>
-      <button class="contact-btn" onclick="contactUs()">contact us</button>
-      <p style="font-size: 0.8em">or contact us directly at <a href="mailto:hello@spacebarlabs.com">hello@spacebarlabs.com</a></p>
-      <p style="font-size: 0.8em">(Psst!  Check out our experiments at <a href="https://apps.spacebarlabs.com/">apps.spacebarlabs.com</a>,<br>including a todo list that does itself.)</p>
-    </main>
-    <footer>
-      <span>&copy; space bar labs 2024</span><br>
-    </footer>
-    <footer>
-      <span><a href="https://spacebarlabs.com/privacy-policy/">Privacy Policy</a> <a href="https://spacebarlabs.com/terms-of-service/">Terms of Service</a></span>
+    <!-- See also:
+    https://bulmatemplates.github.io/bulma-templates/templates/hero.html
+    https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/hero.html
+    -->
+    <section class="hero is-medium is-bold">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="/">
+                <img src="SBL_Logo.svg" alt="Space Bar Labs Logo">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">LET'S CREATE THE FUTURE TOGETHER</h1>
+          <p class="m-3">Have a project that you need help with? Need a short term or long term development partner?</p>
+          <p class="m-3">We're happy to talk with you and figure out how we can best accelerate your ideas.</p>
+          <button class="m-3 button is-link" onclick="contactUs()">contact us</button>
+          <p class="m-3 is-size-7">or contact us directly at <a href="mailto:hello@spacebarlabs.com">hello@spacebarlabs.com</a></p>
+          <p class="m-3 is-size-7">(Psst!  Check out our experiments at <a href="https://apps.spacebarlabs.com/">apps.spacebarlabs.com</a>,<br>including a todo list that does itself.)</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered is-size-7">
+        <span>&copy; space bar labs 2024</span><br>
+        <span><a href="https://spacebarlabs.com/privacy-policy/">Privacy Policy</a> <a href="https://spacebarlabs.com/terms-of-service/">Terms of Service</a></span>
+      </div>
     </footer>
     <script src="script.js"></script>
   </body>
