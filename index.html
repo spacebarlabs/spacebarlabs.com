@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
   <head>
-    <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PM2BGK4N');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCBGKLR7VT"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -19,21 +16,17 @@
       gtag('js', new Date());
       gtag('config', 'G-KCBGKLR7VT');
     </script>
-    <title>Space Bar Labs - Let's Create the Future Together</title>
+    <title>Space Bar Labs</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://jenil.github.io/bulmaswatch/lux/bulmaswatch.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="custom.css">
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM2BGK4N" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- See also:
-    https://bulmatemplates.github.io/bulma-templates/templates/hero.html
-    https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/hero.html
-    -->
     <section class="hero is-medium is-bold">
       <div class="hero-head">
-        <nav class="navbar">
+        <nav class="navbar is-fixed-top">
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item" href="/">
@@ -44,27 +37,37 @@
         </nav>
       </div>
       <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">LET'S CREATE THE FUTURE TOGETHER</h1>
-          <p class="m-3">Have a project that you need help with? Need a short term or long term development partner?</p>
-          <p class="m-3">We're happy to talk with you and figure out how we can best accelerate your ideas.</p>
-          <button class="m-3 button is-link" onclick="contactUs()">Contact Us</button>
-          <p class="m-3 is-size-7">
-            or contact us directly at <a href="mailto:hello@spacebarlabs.com">hello@spacebarlabs.com</a><br/>
-          </p>
-	  <h3 class="title">PROJECTS</h2>
+        <div class="container has-text-centered" style="margin-top: 2em;">
+	  <h3 class="title">Products</h2>
 	  <p>
-	  <a class="button m-3 is-info" href="https://bridgeit.app/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">BridgeIt</a><br>
-	  <a class="button m-3 is-info" href="https://cloudbreak.app/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">CloudBreak</a><br>
-	  <a class="button m-3 is-info" href="https://sunya.plus/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">Sunya</a><br>
-	  <a class="button m-3 is-info" href="https://smoothifi.net/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">SmoothiFi</a><br>
+	  <a class="button is-info m-4" href="https://bridgeit.app/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">BridgeIt</a>
 	  </p>
-	  <h3 class="title">KEEP IN TOUCH</h2>
+	  <p>
+	  <a class="button is-info m-4" href="https://cloudbreak.app/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">CloudBreak</a>
+	  </p>
+	  <p>
+	  <a class="button is-info m-4" href="https://sunya.plus/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">Sunya</a>
+	  </p>
+	  <p>
+	  <a class="button is-info m-4" href="https://smoothifi.net/?utm_medium=referral&utm_source=spacebarlabs.com&rby=spacebarlabs.com">SmoothiFi</a>
+	  </p>
+	  <h3 class="title">Keep In Touch</h2>
           <p>
-            <a class="m-3 button is-warning" href="https://blog.spacebarlabs.com">Read Our Blog</a>
+            Read our company blog:
           </p>
           <p>
-            <a class="m-3 button is-size-7 is-family-monospace is-warning" href="https://engineering.spacebarlabs.com">Read Our Engineering Blog: Percent Twenty</a>
+            <a class="button is-warning m-4" href="https://blog.spacebarlabs.com">Space Bar Labs Blog</a>
+          </p>
+          <p>
+            Read our engineering blog:
+          </p>
+          <p>
+            <a class="button is-warning m-4" href="https://engineering.spacebarlabs.com">Percent Twenty</a>
+          </p>
+          <h1 class="title">Contact</h1>
+          <button class="button is-link m-4" onclick="contactUs()">Contact Us</button>
+          <p class="is-size-7 m-4" style="margin-top: 2em">
+            or contact us directly at <a href="mailto:hello@spacebarlabs.com">hello@spacebarlabs.com</a><br/>
           </p>
         </div>
       </div>

@@ -9,12 +9,18 @@ body {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #DEDEDE;
-    background-image: 
-        linear-gradient(#D2D6DB 1px, transparent 1px),
-        linear-gradient(90deg, #D2D6DB 1px, transparent 1px);
-    background-size: 20px 20px;
+    background-color: white;
     position: relative;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+  color: #000000 !important; /* This will make the text black for readability */
+}
+
+/* You may also need to change the color of links in the navbar */
+.navbar-item {
+    color: #000000 !important;
 }
 
 body::before {
