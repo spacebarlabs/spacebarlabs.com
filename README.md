@@ -7,14 +7,14 @@ This site uses Jekyll for static site generation. To run it locally in an RVM Ru
 ### Prerequisites
 
 - RVM (Ruby Version Manager)
-- Ruby 3.2.3 (specified in `.ruby-version`)
+- Ruby (specified in `.ruby-version`)
 
 ### Setup
 
 1. Install the correct Ruby version (RVM will use `.ruby-version`):
 ```bash
-rvm install 3.2.3
-rvm use 3.2.3
+rvm install $(cat .ruby-version)
+rvm use $(cat .ruby-version)
 ```
 
 2. Install dependencies:
