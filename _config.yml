@@ -1,0 +1,19 @@
+# Site settings
+title: Space Bar Labs
+description: Software for the next frontier.
+url: "https://spacebarlabs.com"
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .git
+  - .gitignore
+  - vendor/bundle/
+  - .bundle/
+
+# Plugins
+plugins:
+  - jekyll-feed
