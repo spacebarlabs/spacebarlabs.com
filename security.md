@@ -1,3 +1,7 @@
+---
+permalink: /security/
+---
+
 # Security at Space Bar Labs
 
 Space Bar Labs is committed to ensuring the safety and security of our users and data. We welcome the contribution of external security researchers and appreciate responsible disclosure of vulnerabilities.
