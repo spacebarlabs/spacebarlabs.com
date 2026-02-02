@@ -1,4 +1,4 @@
-# Landing Page
+# spacebarlabs.com
 
 ## Development with Jekyll
 
