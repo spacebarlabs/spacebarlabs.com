@@ -2,22 +2,26 @@
 
 ## Development with Jekyll
 
-This site uses Jekyll for static site generation. To run it locally in an RVM Ruby environment:
+This site uses Jekyll for static site generation. To run it locally:
 
 ### Prerequisites
 
-- RVM (Ruby Version Manager)
-- Ruby (specified in `.ruby-version`)
+- [mise](https://mise.jdx.dev/) (polyglot runtime manager)
+- Ruby (specified in `.mise.toml` and `.ruby-version`)
 
 ### Setup
 
-1. Install the correct Ruby version (RVM will use `.ruby-version`):
+1. Install mise if you haven't already:
 ```bash
-rvm install $(cat .ruby-version)
-rvm use $(cat .ruby-version)
+curl https://mise.run | sh
 ```
 
-2. Install dependencies:
+2. Install the correct Ruby version (mise will automatically use `.mise.toml`):
+```bash
+mise install
+```
+
+3. Install dependencies:
 ```bash
 bundle install
 ```
