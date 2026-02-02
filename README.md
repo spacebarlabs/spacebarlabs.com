@@ -6,22 +6,21 @@ This site uses Jekyll for static site generation. To run it locally:
 
 ### Prerequisites
 
-- [mise](https://mise.jdx.dev/) (polyglot runtime manager)
-- Ruby (specified in `.mise.toml` and `.ruby-version`)
+- [mise](https://mise.jdx.dev/), apolyglot runtime manager.  See also: [apt.spacebarlabs.com](https://apt.spacebarlabs.com)
+- Ruby (specified in `.ruby-version`)
 
 ### Setup
 
-1. Install mise if you haven't already:
-```bash
-curl https://mise.run | sh
-```
+1. Install mise if you haven't already
 
-2. Install the correct Ruby version (mise will automatically use `.mise.toml`):
+2. Install the correct Ruby version (mise will automatically use `.ruby-version`):
+
 ```bash
 mise install
 ```
 
 3. Install dependencies:
+
 ```bash
 bundle install
 ```
