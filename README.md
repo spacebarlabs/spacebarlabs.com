@@ -6,7 +6,7 @@ This site uses Jekyll for static site generation. To run it locally:
 
 ### Prerequisites
 
-- [mise](https://mise.jdx.dev/), apolyglot runtime manager.  See also: [apt.spacebarlabs.com](https://apt.spacebarlabs.com)
+- [mise](https://mise.jdx.dev/), a polyglot runtime manager.  See also: [apt.spacebarlabs.com](https://apt.spacebarlabs.com)
 - Ruby (specified in `.ruby-version`)
 
 ### Setup
