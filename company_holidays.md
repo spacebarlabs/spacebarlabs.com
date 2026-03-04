@@ -2,7 +2,7 @@
 permalink: /company_holidays/
 ---
 
-# Space Bar Labs Holiday Schedule
+## Holiday Schedule
 
 Thank you for your interest in Space Bar Labs and our [CloudBreak](https://cloudbreak.app) services. We are dedicated to providing the privacy of self-hosting with the frictionless convenience of the cloud, and we appreciate you being part of our community.
 
@@ -14,7 +14,7 @@ We observe below holidays, allowing us to maintaining sustainable operations and
 
 From our family to yours, we want to wish you a wonderful holiday season. We believe everyone deserves a restful holiday and the time to recharge with their loved ones.  We appreciate your patience and understanding as we take this time to recharge as well.
 
-## 2026–2028 Holiday Table
+### 2026–2028 Holiday Table
 
 Subscribe to [our company holiday calendar feed](/company_holidays.ics) in your favorite calendar app
 
