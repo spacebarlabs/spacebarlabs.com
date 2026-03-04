@@ -1,5 +1,5 @@
 ---
-permalink: /company_holidays/
+permalink: /company-holidays/
 ---
 
 ## Holiday Schedule
@@ -16,7 +16,7 @@ From our family to yours, we want to wish you a wonderful holiday season. We bel
 
 ### 2026–2028 Holiday Table
 
-Subscribe to [our company holiday calendar feed](/company_holidays.ics) in your favorite calendar app
+Subscribe to [our company holiday calendar feed](/company-holidays.ics) in your favorite calendar app
 
 | Holiday / Break | 2026 | 2027 | 2028 |
 | --- | --- | --- | --- |
