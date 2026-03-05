@@ -8,7 +8,7 @@ Thank you for your interest in Space Bar Labs and our [CloudBreak](https://cloud
 
 We observe below holidays, allowing us to maintaining sustainable operations and ensuring we can continue to deliver high-quality service. Please note the following regarding our availability during these dates:
 
-- **Support Response Times**: Our standard support hours are Monday through Friday, 9:00 AM to 5:00 PM. During company holidays and extended breaks, responses to non-critical inquiries at [support@spacebarlabs.com](mailto:support@spacebarlabs.com) may be delayed until we return to the office.
+- **Support Response Times**: Our standard support hours are Monday through Friday, 9:00 AM to 5:00 PM, US Central time. During company holidays and extended breaks, responses to non-critical inquiries at [support@spacebarlabs.com](mailto:support@spacebarlabs.com) may be delayed until we return to the office.
 - **System Monitoring**: While manual support is limited during these times, our core infrastructure and account provisioning systems remain active. Please be aware that new CloudBreak account provisioning can take up to 24 hours.
 - **Community Resources**: If you have general questions or need assistance during a holiday, we encourage you to visit the [CloudBreak Community Forum](https://cloudbreak.app/forum).
 
